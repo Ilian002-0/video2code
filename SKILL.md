@@ -1,6 +1,6 @@
 ---
 name: video2code
-description: Extract source code (or on-screen docs/config/terminal text) shown in a video (YouTube, local file) as clean, verified files, not just a transcript. Use when the user wants the code from a coding tutorial, conference talk, screencast or IDE recording, or asks to "get the code from this video". Combines frame selection, OCR, multi-frame consolidation, and correction (token, line, fragment) following the ACE approach.
+description: Extract source code, decompiled snippets, or on-screen terminal/config text shown in a video (YouTube, local file) as clean, verified files, not just a transcript. Use when extracting code from tutorials, screencasts, conference talks, reverse-engineering walkthroughs (Ghidra, IDA Pro), or when recovering code from video evidence without a source repository. Combines frame selection, OCR, multi-frame consolidation, and correction following the ACE approach.
 ---
 
 # video2code (Video Code Extractor)

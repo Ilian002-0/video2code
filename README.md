@@ -64,12 +64,19 @@ winget install yt-dlp Gyan.FFmpeg UB-Mannheim.TesseractOCR
 pip install pytesseract pillow
 ```
 
+## Use Cases
+
+- **Tutorials & Live-Coding:** Extract full implementations from live-coding sessions and screencasts without pausing to retype.
+- **Reverse Engineering & Security Research:** Reconstruct decompiled code, disassembly snippets, Ghidra/IDA sessions, or exploit PoCs shown during talks (DEF CON, Black Hat) or video walkthroughs where no public repository exists. Pairs naturally with tools like [REA (Reverse Engineer Anything)](https://github.com/morluto/rea) by turning on-screen visual evidence into verified source files.
+- **Legacy Demos & Webinars:** Recover configuration files, scripts, or architectures demonstrated only on video.
+
 ## Usage
 
 Ask your agent, for example:
 
 > Extract the code from this video: https://www.youtube.com/watch?v=...
 > Extract the Python function shown in `demo.mp4` between 02:10 and 03:40 and check that it compiles.
+> Reconstruct the decompiled C function shown in this reverse-engineering demo between 08:15 and 11:30.
 
 The scripts can also be run on their own:
 
