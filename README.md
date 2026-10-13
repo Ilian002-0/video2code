@@ -31,6 +31,14 @@ The model only chooses among readings that were actually observed and never comp
 
 ## Installation
 
+### Via skills CLI (recommended)
+
+```bash
+npx skills add Ilian002-0/video2code
+```
+
+### Manual installation
+
 The skill uses the standard `SKILL.md` format and works with agents that support it.
 
 | Agent | Project scope | Global scope |
