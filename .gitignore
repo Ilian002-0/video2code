@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+vce_work/
+.venv/
+.DS_Store
