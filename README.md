@@ -34,21 +34,15 @@ The model only chooses among readings that were actually observed and never comp
 ### Via skills CLI (recommended)
 
 ```bash
-npx skills add Ilian002-0/video2code
+npx skills@1.0.0 add Ilian002-0/video2code
 ```
 
 ### Manual installation
 
-The skill uses the standard `SKILL.md` format and works with agents that support it.
-
-| Agent | Project scope | Global scope |
-|---|---|---|
-| Antigravity | `<project>/.agents/skills/video2code/` | `~/.gemini/config/skills/video2code/` |
-| Claude Code | `<project>/.claude/skills/video2code/` | `~/.claude/skills/video2code/` |
+Clone into your agent's skills directory:
 
 ```bash
 git clone https://github.com/Ilian002-0/video2code.git
-cp -r video2code <one of the directories above>
 ```
 
 ### Dependencies
@@ -57,11 +51,11 @@ cp -r video2code <one of the directories above>
 # macOS
 brew install yt-dlp ffmpeg tesseract
 # Debian / Ubuntu
-sudo apt install yt-dlp ffmpeg tesseract-ocr
+apt install yt-dlp ffmpeg tesseract-ocr
 # Windows
 winget install yt-dlp Gyan.FFmpeg UB-Mannheim.TesseractOCR
 
-pip install pytesseract pillow
+pip install pytesseract pillow rapidfuzz
 ```
 
 ## Use Cases
